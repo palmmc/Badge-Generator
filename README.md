@@ -3,7 +3,7 @@
 Easily generate cool and functional dependency badges to slap on your project so users know what your project depends on.
 
 ## Create your Badge
-Try out Badge Generator now!<br>
+Try out **Badge Generator** now!<br>
  » https://palmmc.github.io/Badge-Generator/
 
 ## Example
