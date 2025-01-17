@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dependency Badge Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Dependency Badge Generator</h1>
+      <h4>made by palmmc</h4>
+
+      <div class="input-group">
+        <label for="dependencyName">Dependency Name:</label>
+        <input type="text" id="dependencyName" value="Badge Generator" />
+      </div>
+
+      <div class="input-group">
+        <label for="iconURL">Icon URL:</label>
+        <input
+          type="text"
+          id="iconURL"
+          value="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+        />
+      </div>
+
+      <div class="input-group">
+        <label for="iconFile">Icon File:</label>
+        <input type="file" id="iconFile" accept="image/*" />
+      </div>
+
+      <div class="input-group">
+        <label for="outlineColor">Outline Color:</label>
+        <input type="color" id="outlineColor" value="#6f6f6f" />
+      </div>
+
+      <button id="generateButton">Generate Badge</button>
+
+      <div id="preview">
+        <h2>Preview:</h2>
+        <canvas
+          id="badgeCanvas"
+          width="720"
+          height="200"
+          style="width: 360px; height: 100px"
+        ></canvas>
+      </div>
+
+      <div style="height: 10px"></div>
+
+      <a
+        id="downloadLink"
+        style="display: none"
+        download="dependency-badge.png"
+      >
+        <button type="button">Download Badge</button>
+      </a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
